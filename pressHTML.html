@@ -1,0 +1,68 @@
+<?php require_once( 'admin/cms.php' ); ?>
+<cms:template title='ESHOP' clonable='1'>
+   
+<!DOCTYPE html>
+<html>
+<head>
+<title>PRESS</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/pressCSS1.css" >
+<link rel="stylesheet" href="css/masonry-docs.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<link rel="stylesheet" href="css/bricklayer.css">
+<script src="js/gridify.js"></script>
+<script type="text/javascript">
+
+</script>
+
+</head>
+<body>
+	<!-- Navigation Menu -->
+	<div class="nav-logo">
+		<a href="home.html"><img src="images/LOOGO.png"></a>
+	</div>
+	<div class="mobile-nav">
+		<img class="menu" src="images/fabar.png"></img>
+		<p>PRESS</p>
+	</div>
+	<div class="nav">
+		<li><a href="jelenaaleksic.php">JELENA ALEKSIC</a></li>
+		<li><a href="moodboard.php">MOODBOARD</a></li>
+		<li><a href="lookbook.php">LOOKBOOK</a></li>
+		<li><a href="#">E-SHOP</a></li>
+		<li><a href="stocklist.php">STOCK LIST</a></li>
+		<li><a class="active" href="press.php">PRESS</a></li>
+		<li><a href="contact.php">CONTACT</a></li>
+	</div>
+	
+	<div class="grid">
+		<img src="slike/1.jpg">
+		<img src="slike/2.jpg">
+		<img src="slike/3.jpg">
+		<img src="slike/4.jpg">
+		<img src="slike/5.jpg">
+		
+	</div>
+
+<script type="text/javascript" src="../gridify.js"></script>
+<script type="text/javascript">
+    window.onload = function(){
+        var options =
+        {
+            srcNode: 'img',             // grid items (class, node)
+            margin: '5px',             // margin in pixel, default: 0px
+            width: '50%',             // grid item width in pixel, default: 220px
+            max_width: '800px',              // dynamic gird item width if specified, (pixel)
+            resizable: true,            // re-layout if window resize
+            transition: 'all 0.5s ease' // support transition for CSS3, default: all 0.5s ease
+        }
+        document.querySelector('.grid').gridify(options);
+    }
+</script>
+	
+</body>
+</html>
+<?php COUCH::invoke(); ?>

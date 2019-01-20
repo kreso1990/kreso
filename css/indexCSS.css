@@ -1,0 +1,78 @@
+@font-face {
+    font-family: antonio;
+	src: url('Fonts/Antonio-Regular.ttf');
+    src: local('Fonts/Antonio-Regular'),format('truetype');;
+}
+body{
+	background-color:#373856;
+	margin: 0; 
+	height: 100%; 
+	width:100%;
+	overflow: hidden;
+	}
+
+#anim{
+	height:100%;
+	position:absolute;
+	width:100%;
+	margin:auto;
+	}
+	
+.center{
+	position:absolute;
+	margin:auto;
+	width:100%;
+	bottom:25px;
+}
+.center h1{
+	color:white;
+	text-align:center;
+	font-family: antonio;
+	font-size:80px;
+	letter-spacing:6px;
+	margin:auto;
+	margin-top:15px;
+
+	}
+			
+ .center p{
+	color:white;
+	text-align:center;
+	font-family: antonio;
+	font-size:60px;
+	letter-spacing:3px;
+	margin:auto;
+	}
+
+@media (max-width: 480px) {
+	
+	
+	.center p{
+		font-size:20px;
+	}
+	.center h1{
+		font-size:30px;
+	}
+}
+@media (min-width: 481px) and (max-width: 1000px) {
+  
+		.center p{
+		font-size:20px;
+	}
+	.center h1{
+		font-size:30px;
+	}
+  
+}	
+
+@media (min-width: 1001px) and (max-width: 1366px) {
+		.center p{
+		font-size:30px;
+	}
+	.center h1{
+		font-size:40px;
+	}
+
+}
+	
+	

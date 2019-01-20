@@ -1,0 +1,54 @@
+
+body{		
+	background-color:#fff;
+	color:#000;	 	
+}
+
+
+
+.main {
+	width:85%;	
+	margin:0 auto;
+	position:relative;	
+}
+
+
+
+.sample {
+	background-color:#eee;
+	padding:10px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.sample h2 {
+	text-transform:uppercase;
+	margin-bottom:10px;
+	margin-top:0;
+	font-size:22px
+}
+
+.sample p {
+	font-size:13px;
+	line-height:150%
+}
+
+.another-brick img {
+	width:100%;
+}
+@media (max-width:500px){
+	.main {
+	width:100%;		
+	}
+}
+@media (min-width: 501px) and (max-width:700px){
+	.main {
+	width:100%;		
+	}
+}
+@media (min-width: 701px) and (max-width:1000px){
+	.main {
+	width:100%;		
+	}
+}

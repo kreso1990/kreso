@@ -1,0 +1,14 @@
+@font-face {
+    font-family: okuda;
+	src: url('Fonts/okuda.otf');
+    src: local('Fonts/okuda'),format('truetype');;
+}
+#message h1{
+	font-family: okuda;
+	font-size:50px;
+	color:#373856;
+}
+#message a {
+	font-family: okuda;
+	font-size:40px;
+}
